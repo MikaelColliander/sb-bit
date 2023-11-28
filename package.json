@@ -1,16 +1,16 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-bit",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "Integrates component version data from bit.cloud with Storybook",
   "keywords": [
-    "storybook-addons"
+    "storybook-addons", "bit", "bit.cloud", "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/MikaelColliander/sb-bit"
   },
   "license": "MIT",
-  "author": "package-author",
+  "author": "Mikael Colliander <mikael.colliander@gmail.com>",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -32,7 +32,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "node scripts/welcome.js",
     "clean": "rimraf ./dist",
     "prebuild": "npm run clean",
     "build": "tsup",
@@ -89,9 +88,9 @@
     "previewEntries": ["src/preview.ts"]
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Bit versions",
     "supportedFrameworks": [
-      "supported-frameworks"
+      "react"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }

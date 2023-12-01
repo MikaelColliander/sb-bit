@@ -1,9 +1,11 @@
 {
   "name": "storybook-addon-bit",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "Integrates component version data from bit.cloud with Storybook",
   "keywords": [
-    "storybook-addons", "bit", "bit.cloud", "storybook-addons"
+    "storybook-addons",
+    "bit",
+    "bit.cloud"
   ],
   "repository": {
     "type": "git",
@@ -79,13 +81,30 @@
     "vite": "^4.5.0",
     "zx": "^7.2.3"
   },
+  "peerDependencies": {
+    "@storybook/blocks": "^7.0.0",
+    "@storybook/components": "^7.0.0",
+    "@storybook/core-events": "^7.0.0",
+    "@storybook/manager-api": "^7.0.0",
+    "@storybook/preview-api": "^7.0.0",
+    "@storybook/theming": "^7.0.0",
+    "@storybook/types": "^7.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
   "publishConfig": {
     "access": "public"
   },
   "bundler": {
-    "exportEntries": ["src/index.ts"],
-    "managerEntries": ["src/manager.ts"],
-    "previewEntries": ["src/preview.ts"]
+    "exportEntries": [
+      "src/index.ts"
+    ],
+    "managerEntries": [
+      "src/manager.ts"
+    ],
+    "previewEntries": [
+      "src/preview.ts"
+    ]
   },
   "storybook": {
     "displayName": "Bit versions",
@@ -93,5 +112,9 @@
       "react"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
+  "dependencies": {
+    "@storybook/api": "^7.6.0",
+    "js-untar": "^2.0.0"
   }
 }

@@ -19,6 +19,11 @@ export const LoggedIn: Story = {
       name: "Jane Doe",
     },
   },
+  parameters: {
+    bit: {
+      componentId: "ui/app-bar",
+    },
+  },
 };
 
 export const LoggedOut: Story = {};

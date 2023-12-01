@@ -12,6 +12,9 @@ const preview: Preview = {
         date: /Date$/,
       },
     },
+    bit: {
+      apiUrl: "https://sjdesignsystembff.azurewebsites.net/",
+    }
   },
 };
 

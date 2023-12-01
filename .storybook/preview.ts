@@ -13,7 +13,7 @@ const preview: Preview = {
       },
     },
     bit: {
-      apiUrl: "https://sjdesignsystembff.azurewebsites.net/",
+      apiUrl: "http://localhost:3000/",
     }
   },
 };

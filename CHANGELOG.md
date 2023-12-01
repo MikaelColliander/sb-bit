@@ -1,5 +1,17 @@
 # v2.0.4 (Fri Dec 01 2023)
 
+#### ⚠️ Pushed to `main`
+
+- corrected url for fetching tarball (mikael.colliander@forefront.se)
+
+#### Authors: 1
+
+- Mikael Colliander (mikael.colliander@forefront.se)
+
+---
+
+# v2.0.4 (Fri Dec 01 2023)
+
 
 
 ---

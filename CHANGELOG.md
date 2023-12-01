@@ -1,3 +1,15 @@
+# v2.0.6 (Fri Dec 01 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Removed decorators - withGlobals, withRoundTrip (mikael.colliander@forefront.se)
+
+#### Authors: 1
+
+- Mikael Colliander (mikael.colliander@forefront.se)
+
+---
+
 # v2.0.5 (Fri Dec 01 2023)
 
 #### ⚠️ Pushed to `main`

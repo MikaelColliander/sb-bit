@@ -74,7 +74,7 @@ export const TabContent: React.FC<TabContentProps> = ({ code }) => {
 
   const getFiles = (ver: string) => {
     updateFiles((arr) => (arr = []));
-    fetch(`${url}/tarball/${componentId}/${ver}`)
+    fetch(`${url}tarball/${componentId}/${ver}`)
       .then((res) => res.arrayBuffer())
       .then((arr) => arr)
       .then(untar)

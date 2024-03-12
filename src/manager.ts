@@ -12,7 +12,10 @@ import { Tab } from "./Tab";
     type: types.TAB,
     title: "Bit versions",
     //👇 Checks the current route for the story
-    route: ({ storyId }) => `/bitaddon/${storyId}`,
+    route: ({ path }) => {
+      const newPath = path.split('--').shift().split("/").slice(2).join("/") + "--docs";
+      return `/bitaddon/${newPath}`
+    },
     //👇 Shows the Tab UI element in myaddon view mode
     match: ({ viewMode }) => viewMode === "bitaddon",
     render: Tab,

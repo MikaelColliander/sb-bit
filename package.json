@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-bit",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Integrates component version data from bit.cloud with Storybook",
   "keywords": [
     "storybook-addons",

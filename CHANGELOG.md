@@ -1,3 +1,15 @@
+# v2.0.7 (Wed Mar 13 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Workaround to display tab in story mode (mikael.colliander@sj.se)
+
+#### Authors: 1
+
+- = (mikael.colliander@sj.se)
+
+---
+
 # v2.0.6 (Fri Dec 01 2023)
 
 #### ⚠️ Pushed to `main`

@@ -13,7 +13,7 @@ const preview: Preview = {
       },
     },
     bit: {
-      apiUrl: "http://localhost:3000/",
+      apiUrl: "https://dev-api.adp.sj.se/public/design-system-server-function/v1/bit/component/",
     }
   },
 };

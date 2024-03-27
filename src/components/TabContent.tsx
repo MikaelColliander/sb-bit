@@ -59,7 +59,7 @@ export const TabContent: React.FC<TabContentProps> = ({ code }) => {
     if (item) {
       setSelectedVersion("");
       setVersions(["Loading versions..."]);
-      fetch(`${url}component/${componentId}`).then((result) =>
+      fetch(`${url}${componentId}`).then((result) =>
         result.json().then((data) => {
           const fetchedVersions = Object.keys(data.versions) as {
             [key: string]: any;
@@ -74,7 +74,7 @@ export const TabContent: React.FC<TabContentProps> = ({ code }) => {
 
   const getFiles = (ver: string) => {
     updateFiles((arr) => (arr = []));
-    fetch(`${url}tarball/${componentId}/${ver}`)
+    fetch(`${url}${componentId}/${ver}`)
       .then((res) => res.arrayBuffer())
       .then((arr) => arr)
       .then(untar)
